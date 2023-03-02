@@ -13,31 +13,36 @@
     <header>
         <h1>Paul Koehler Web Application Portfolio</h1>
         <nav>
-            <ul>
-                <li><a href="#aboutme">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#resume">Resume</a></li>
-            </ul>
+            <a href="#aboutme">About Me</a>
+            <a href="#work">Work</a>        
+            <a href="#contact">Contact</a>     
+            <a href="#resume">Resume</a>
         </nav>
     </header>
 
     <main>
-        <lang="ja-jp">初めまして。ポールと申します。日英翻訳・通訳者の経験を生かして、ソフトウェア開発の仕事を探しております。よろしくお願いします。</lang>
-    </main>
-
-    <section>
-        <article id="aboutme" class="">
-            <p>I am seeking employment as a software developer using experinece as a Japanese-English translator and intepreter. My portfolio on this page shows past projects I have worked on, and you can also <a href="https://github.com/pk50sshowa/" target="_blank" rel="noopener noreferrer">follow my GitHub account.</a></p>
+    <section class="parent">
+        <h2>初めまして。ポールと申します。日英翻訳・通訳者の経験を生かして、ソフトウェア開発の仕事を探しております。よろしくお願いします。</h2>
+    </section>
+    <section id="aboutme" class="parent">
+        <header><h3>About Me</h3></header>
+        <article class="right">
+            <p>I am seeking employment as a software developer using experience as a Japanese-English translator and intepreter. My portfolio on this page shows past projects I have worked on, and you can also <a href="https://github.com/pk50sshowa/" target="_blank" rel="noopener noreferrer">follow my GitHub account.</a></p>
         </article>
-        <article id="work" class="">
-            <p>Main project</p>
-            <p>Project 2</p>
-            <p>Project 3</p>
-            <p>Project 4</p>
-            <p>Project 5</p>
-        </article>
-        <article id="contact" class="">
+    </section>
+    <section class="parent">
+        <header><h3>Work</h3></header>
+        <div id ="work" class="right">
+            <div id="proj1"><h4><a href="">Main Project</a></h4></div>
+            <div id="proj2"><h4><a href="">Project 2</a></h4></div>
+            <div id="proj3"><h4><a href="">Project 3</a></h4></div>
+            <div id="proj4"><h4><a href="">Project 4</a></h4></div>
+            <div id="proj5"><h4><a href="">Project 5</a></h4></div>
+        </div>
+    </section>
+    <section id="contact" class="parent">
+        <header><h3>Contact</h3></header>
+        <article class="right">
             <p>
                 <ul>
                     <li><a href="mailto:paul.koehler@gmail.com">paul.koehler@gmail.com</a></li>
@@ -45,14 +50,19 @@
                 </ul>
             </p>
         </article>
-        <article id="resume" class="">
-            <p>In addition to <a href="" target="_blank" rel="noopener noreferrer">my resume</a>, you can also access <a href="" target="_blank" rel="noopener noreferrer">my LinkedIn account.</a></p>
+    </section>
+    <section id="resume" class="parent">
+        <header><h3>Resume</h3></header>
+        <article class="right">
+            <p>In addition to <a href="" target="_blank" rel="noopener noreferrer">my resume</a>, you can also access <a href="https://www.linkedin.com/in/paul-koehler-29046228/" target="_blank" rel="noopener noreferrer">my LinkedIn account.</a></p>
         </article>
     </section>
+    </main>
 
     <footer>
-
+        Copyright © Paul Koehler 2023
     </footer>
+
 
 </body>
 
