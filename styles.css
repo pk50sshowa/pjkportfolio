@@ -76,6 +76,18 @@ section header {
     color: black;
 }
 
+p {
+    font-weight: bold ;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: darkgreen;
+}
+
 div {
     display: flex;
     flex-wrap: wrap;
@@ -83,9 +95,18 @@ div {
     align-items: center;
     margin: 0.5em;
     padding: 15px;
-    border-radius: 15px;
     border: solid 2px;
+    border-radius: 15px;
     margin-right: 30px;
+}
+
+div a {
+    text-decoration: none;
+}
+
+div ul li {
+    list-style-type: none;
+    font-weight: bold;
 }
 
 div #proj1 {
@@ -96,10 +117,6 @@ div #proj1 {
 div #proj2, #proj3, #proj4, #proj5 {
     height: 175px;
     background-image: url(./assets/wp8461062.jpg);
-}
-
-div ul li {
-    list-style-type: none;
 }
 
 footer {
@@ -128,7 +145,11 @@ footer {
 }
 
 #work a:hover {
-    color: #fff;
+    color: green;
+}
+
+#work a:visited {
+    color: darkgreen;
 }
 
 .right {
@@ -136,6 +157,33 @@ footer {
     flex: 80%;
 }
 
-.right.hvr-shadow-radial {
-    
-}
+  /* Underline From Left CSS effect from hover.css courtesy of https://ianlunn.github.io/Hover/ */
+/* Underline From Left */
+.hvr-underline-from-left {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .hvr-underline-from-left:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: #2098D1;
+    height: 4px;
+    -webkit-transition-property: right;
+    transition-property: right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+    right: 0;
+  }
