@@ -122,6 +122,10 @@ footer {
     text-align: center;
 }
 
+img {
+    max-width: 20%;
+}
+
 .parent {
     display: flex;
     width: 100%;
@@ -185,4 +189,8 @@ footer {
   }
   .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
     right: 0;
+  }
+
+  @media only screen and (max-width: 768px) {
+    
   }
