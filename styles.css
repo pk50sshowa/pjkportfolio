@@ -1,3 +1,5 @@
+/* Element styling for index.html */
+
 * {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -126,16 +128,7 @@ img {
     max-width: 20%;
 }
 
-.parent {
-    display: flex;
-    width: 100%;
-    flex-basis: calc(100% - 1ex);
-    padding: 1ex;
-    margin: 1ex;
-    align-items: center;
-    justify-content: center;
-}
-
+/* Class IDs for the main body */
 #work {
     display: flex;
     flex-wrap: wrap;
@@ -155,10 +148,22 @@ img {
     color: darkgreen;
 }
 
+/* Class selector for alignment of right side elements in the body */
 .right {
     display: flex;
     flex: 80%;
 }
+
+.parent {
+    display: flex;
+    width: 100%;
+    flex-basis: calc(100% - 1ex);
+    padding: 1ex;
+    margin: 1ex;
+    align-items: center;
+    justify-content: center;
+}
+
 
   /* Underline From Left CSS effect from hover.css courtesy of https://ianlunn.github.io/Hover/ */
 /* Underline From Left */
@@ -191,6 +196,7 @@ img {
     right: 0;
   }
 
+  /* Media tag added for responsive design */
   @media only screen and (max-width: 768px) {
     
   }
