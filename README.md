@@ -16,7 +16,9 @@ The site is live at the following URL:
 
 ## Developer Comments
 
-The page design remains the same, but links have been fixed and the entire page has been redone to only inlcude semantic elements. Styling in the linked CSS file has been changed as well to make note of these elements.
+The page follows a simple green color scheme and is divided into sections where users can see a brief introduction, my background, and links to projects. The first project is empashized on the top, while the others are on the bottom with a smaller size.
+
+Design elements are responsive to adjust for screen sizes with a smaller width.
 
 ## Contributing
 
