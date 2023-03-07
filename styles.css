@@ -105,9 +105,12 @@ div a {
     text-decoration: none;
 }
 
-div ul li {
-    list-style-type: none;
+div ul {
+    flex-wrap: wrap;
     font-weight: bold;
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
 }
 
 div #proj1 {
@@ -151,7 +154,7 @@ img {
 /* Class selector for alignment of right side elements in the body */
 .right {
     display: flex;
-    flex: 80%;
+    flex-basis: 80%;
 }
 
 .parent {
@@ -196,7 +199,17 @@ img {
     right: 0;
   }
 
-  /* Media tag added for responsive design */
+  /* Media tags added for responsive design */
   @media only screen and (max-width: 768px) {
-    
+
+    img {
+        max-width: 40%;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+
+    #contact, #work {
+        max-width: 40%;
+    }
   }
