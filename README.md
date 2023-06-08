@@ -2,7 +2,7 @@
 
 ## Description
 
-This is my (Paul Koehler's) Web Application Portfolio, designed to showcase the work I have done so far. It has been written in HTML and CSS, with links to projects I have worked on so far and 
+This is my (Paul Koehler's) Web Application Portfolio, designed to showcase the work I have done so far. It has been written in HTML and CSS, with links to projects I have worked on so far.
 
 ## Location
 
